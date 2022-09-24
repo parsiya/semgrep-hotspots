@@ -32,10 +32,13 @@ TODO: Add rules and their guides here.
 Rule ID | Language | Triage Guide
 --- | --- | ---
 [Arrays passed to functions](cpp/arrays-passed-to-functions.yaml) | C++ | [Triage Guide](cpp/arrays-passed-to-functions.md)
-[Encode/Decode in function name](cpp/encode-decode-function-name.yaml) | C++ | [Triage Guide](cpp/encode-decode-function-name.md)
-[Encrypt/Decrypt in function name](cpp/encrypt-decrypt-function-name.yaml) | C++ | [Triage Guide](cpp/encrypt-decrypt-function-name.md)
-[memcpy usage](cpp/memcpy-insecure-use.yaml) | C++ | [Triage Guide](cpp/memcpy-insecure-use.md)
-[snprintf usage](cpp/snprintf-insecure-use.yaml) | C++ | [Triage Guide](cpp/snprintf-insecure-use.md)
+[Encode/Decode in function name](cpp/encode-decode-function-name.yaml) | C/C++ | [Triage Guide](cpp/encode-decode-function-name.md)
+[Encrypt/Decrypt in function name](cpp/encrypt-decrypt-function-name.yaml) | C/C++ | [Triage Guide](cpp/encrypt-decrypt-function-name.md)
+[memcpy usage](cpp/memcpy-insecure-use.yaml) | C/C++ | [Triage Guide](cpp/memcpy-insecure-use.md)
+[Out of Bounds Array Access](cpp/arrays-out-of-bounds-access.yaml) | C/C++ | [Triage Guide](cpp/arrays-out-of-bounds-access.md)
+[Potentially Uninitialized Pointer](cpp/potentially-uninitialized-pointer.yaml) | C/C++ | [Triage Guide](cpp/potentially-uninitialized-pointer.md)
+[snprintf usage](cpp/snprintf-insecure-use.yaml) | C/C++ | [Triage Guide](cpp/snprintf-insecure-use.md)
+
 
 ## Contribution
 Please follow the [Contributing through GitHub][con-gh] section of
