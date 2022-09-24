@@ -1,7 +1,7 @@
 # Insecure snprintf Usage
-`int snprintf (char* s, size_t n, const char * format, ...);`
+`int snprintf(char* s, size_t n, const char * format, ...);`
 
-1. `snprintf` writes the format string up to `n-1` characters to `short`.
+1. `snprintf` writes the format string up to `n-1` characters to `s`.
 2. `snprintf` adds the null-terminator automatically.
 3. The return value is the number of characters written **if n had been
    sufficiently large** to copy the whole format string.
@@ -27,7 +27,7 @@ There are two issues here:
 ### Second Example
 
 ```cpp
-
+    char name2[5] = "1234";
     // ruleid: snprintf-insecure-use
     int len = snprintf(0, 0, "My name is: %s", myname);
     char *p = (char*) malloc(len);
@@ -50,5 +50,5 @@ to `p`. If we print the value of `p`, we'll only see `123`.
 
 ## References
 
-* https://dustri.org/b/playing-with-weggli.html
+* https://dustri.org/b/playing-with-weggli.html - search for `snprintf`
 * https://cplusplus.com/reference/cstdio/snprintf/

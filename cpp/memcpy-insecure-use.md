@@ -30,5 +30,5 @@ buffer. We're overwriting one byte.
 
 ## References
 
-* https://dustri.org/b/playing-with-weggli.html
+* https://dustri.org/b/playing-with-weggli.html - search for `sizeof(ptr)`
 * https://parsiya.net/blog/2022-04-07-code-review-hot-spots-with-semgrep/#sizeofptr-in-c

@@ -19,8 +19,9 @@ views and systems.
 
 1. Clone the repository.
 2. Run Semgrep with `--config` pointing to the repository or any of the
-   subdirectories. 
-   `$ semgrep --config /path/to/semgrep-hotspots/ . --sarif --output my-results.sarif`
+   subdirectories.
+
+`$ semgrep --config /path/to/semgrep-hotspots/ . --sarif --output my-results.sarif`
 
 ## Rules
 A list of rules and their triage guides. If you have any questions or have

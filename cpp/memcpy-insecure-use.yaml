@@ -10,5 +10,6 @@ rules:
     - c
   severity: WARNING
   metadata:
+    category: hotspot
     references:
       - https://dustri.org/b/playing-with-weggli.html
